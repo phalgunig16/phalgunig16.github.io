@@ -99,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #460246 15%, #636768 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #460246 15%, #636768 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #460246 15%, #636768 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #460246 15%, #636768 85%);
+		background-color: #935d8e;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #460246 15%, #ebf1f3 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #460246 15%, #e3e9eb 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #460246 15%, #e4ecee 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #460246 15%, #070207 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,12 +120,12 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
-		color: rgba(255, 255, 255, 0.65);
+		background-color: #110710;
+		color: rgba(243, 229, 229, 0.65);
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Source Sans Pro", Helvetica , sans-serif;
 		font-size: 17pt;
 		font-weight: 400;
 		line-height: 1.65;
@@ -260,7 +260,7 @@ input, select, textarea {
 	code {
 		border-radius: 8px;
 		border: solid 1px;
-		font-family: "Courier New", monospace;
+		font-family: "Andale", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -268,7 +268,7 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: "Andale", monospace;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
