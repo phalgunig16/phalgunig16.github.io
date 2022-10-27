@@ -99,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8e;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #460246 15%, #ebf1f3 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #460246 15%, #e3e9eb 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #460246 15%, #e4ecee 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #460246 15%, #070207 85%);
+		background-color: #8da1bc;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #8da1bc 15%, #e7e2e2 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #8da1bc 15%, #e7e2e2 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #8da1bc 15%, #e7e2e2 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #8da1bc 15%, #e7e2e2 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -121,11 +121,11 @@ input, select, textarea {
 
 	body {
 		background-color: #110710;
-		color: rgba(243, 229, 229, 0.65);
+		color: rgba(0, 0, 0, 0.65);
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica , sans-serif;
+		font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 		font-size: 17pt;
 		font-weight: 400;
 		line-height: 1.65;
