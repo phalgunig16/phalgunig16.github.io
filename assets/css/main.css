@@ -100,10 +100,10 @@ input, select, textarea {
 
 	body {
 		background-color: #8da1bc;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #8da1bc 15%, #e7e2e2 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #8da1bc 15%, #e7e2e2 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #8da1bc 15%, #e7e2e2 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #8da1bc 15%, #e7e2e2 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #ffffff 15%, #ffffff 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #ffffff 15%, #e7e2e2 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #ffffff 15%, #ffffff 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #c2bdc4 15%, #ffffff 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -125,7 +125,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: Helvetica, sans-serif;
+		font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 		font-size: 17pt;
 		font-weight: 400;
 		line-height: 1.65;
@@ -194,11 +194,11 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: Helvetica, sans-serif;
+		font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 		font-weight: 500;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
-		letter-spacing: -0.025em;
+		letter-spacing: -0.009em;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -261,7 +261,7 @@ input, select, textarea {
 	code {
 		border-radius: 8px;
 		border: solid 1px;
-		font-family: Helvetica, sans-serif;
+		font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -269,7 +269,7 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: Helvetica, sans-serif;
+		font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -1958,9 +1958,73 @@ input, select, textarea {
   }
 
 
+/* HEY*/
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #8b8c8e 0%,
+    #000000 29%,
+    #e2dbdb 67%,
+    #38b9f5 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 50px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
 
 
 
+
+/*HEYEND*/
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+  }
+  
+  body {
+	background-color: #111;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+  }
+  .waviy {
+	position: relative;
+  }
+  .waviy span {
+	position: relative;
+	display: inline-block;
+	font-size: 20px;
+	color: #4f4a4a;
+	
+	animation: flip 4s infinite;
+	animation-delay: calc(.5s * var(--i))
+  }
+  @keyframes flip {
+	0%,80% {
+	  transform: rotateY(360deg) 
+	}
+  }
 
 /* Box */
 
@@ -2253,7 +2317,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: Helvetica, sans-serif;
+				font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 				font-weight: 900;
 			}
 
@@ -2398,7 +2462,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: Helvetica, sans-serif;
+			font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 			font-weight: 400;
 		}
 
@@ -2415,7 +2479,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: Helvetica, sans-serif;
+			font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 		}
 
 		.icon.major {
@@ -2621,11 +2685,13 @@ input, select, textarea {
 		dl dt {
 			display: block;
 			font-weight: 400;
+			font-size: 1.3em;
 			margin: 0 0 1em 0;
 		}
 
 		dl dd {
 			margin-left: 2em;
+			font-size: 1.3em;
 		}
 
 		dl.alt dt {
@@ -2634,6 +2700,7 @@ input, select, textarea {
 			margin: 0;
 			clear: left;
 			float: left;
+			font-size: 1.3em;
 		}
 
 		dl.alt dd {
@@ -2670,6 +2737,7 @@ input, select, textarea {
 		ul.actions li {
 			padding: 0 0 0 1em;
 			vertical-align: middle;
+			font-size: 1.5em;
 		}
 
 		ul.actions.special {
@@ -2787,10 +2855,12 @@ input, select, textarea {
 		ul.icons li {
 			display: inline-block;
 			padding: 0 0.65em 0 0;
+			font-size: 2.5em;
 		}
 
 			ul.icons li:last-child {
 				padding-right: 0 !important;
+				font-size: 2.5em;
 			}
 
 /* Section/Article */
@@ -3047,11 +3117,11 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				background-color: #ddf2fd;
+				background-color: #ffffff;
 			}
 
 			.statistics li.style2 {
-				background-color: #fcebf6;
+				background-color: #ffffff;
 			}
 
 			.statistics li.style3 {
@@ -3068,10 +3138,11 @@ input, select, textarea {
 
 			.statistics li strong, .statistics li b {
 				display: block;
-				font-size: 1.5em;
+				font-size: 1.3em;
+				padding: 0.9em;
 				line-height: 1.1;
 				color: inherit !important;
-				font-weight: 150;
+				font-weight: 190;
 				letter-spacing: 0.005em;
 			}
 
@@ -3860,13 +3931,13 @@ input, select, textarea {
 
 		#footer > * {
 			width: calc(50% - 2em);
-			margin-left: 2em;
+			margin-left: 0em;
 		}
 
 		#footer .copyright {
 			width: 100%;
 			margin: 2.5em 0 2em 0;
-			font-size: 0.8em;
+			font-size: 1em;
 			text-align: center;
 		}
 
