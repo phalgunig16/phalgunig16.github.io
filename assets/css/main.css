@@ -2017,7 +2017,7 @@ input, select, textarea {
 	font-size: 20px;
 	color: #4f4a4a;
 	
-	animation: flip 4s infinite;
+	animation: flip 3s 2;
 	animation-delay: calc(.5s * var(--i))
   }
   @keyframes flip {
